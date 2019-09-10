@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/music_list_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/playlist"
+        android:background="@color/bg_playlist"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:paddingLeft="7dp"
+        android:id="@+id/textView" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/playlist_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/textView">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/empty_playlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty_music_list"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:visibility="gone"/>
+</RelativeLayout>

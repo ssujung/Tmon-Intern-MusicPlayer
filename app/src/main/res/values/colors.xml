@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fa5a44</color>
+    <color name="colorPrimaryDark">#fc3115</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#d6d6d6</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="hintColor">#d3b3b3b3</color>
+    <color name="bg_playlist">#767171</color>
+    <color name="gradient_start">#ccf2f2f2</color>
+    <color name="gradient_center">#ccb4b4b4</color>
+    <color name="gradient_end">#cc5c5c5c</color>
+    <color name="artist_name_color">#696969</color>
+    <color name="equalizer_color">#000000</color>
+</resources>

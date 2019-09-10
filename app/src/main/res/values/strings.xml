@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+    <string name="actionbar_name">라이브러리</string>
+    <string name="search_result">검색 결과</string>
+    <string name="query_hint">검색어를 입력하세요..</string>
+
+    <string name="song_name">곡 명</string>
+    <string name="artist_name">아티스트</string>
+    <string name="unknown_artist">알 수 없는 아티스트</string>
+
+    <string name="tile_view">TileView</string>
+    <string name="list_view">ListView</string>
+    <string name="action_search">SearchMusic</string>
+    <string name="action_done">GoSearchMusic</string>
+
+    <string name="empty_music_list">사용할 수 있는 음악 없음</string>
+    <string name="empty_searched_music">검색 결과 없음</string>
+
+    <string name="option_add_music">재생 목록에 추가</string>
+    <string name="option_delete_music">삭제</string>
+    <string name="option_delete_from_playlist">재생 목록에서 제거</string>
+
+    <string name="search_result_toolbar_title">검색 결과</string>
+
+    <string name="playlist">재생 목록</string>
+
+    <string name="delete_dialog_msg">을(를) 삭제하시겠습니까?</string>
+    <string name="dialog_confirm">확인</string>
+    <string name="dialog_cancel">취소</string>
+
+    <string name="error_no_metadata">Unable to retrieve metadata.</string>
+    <string name="random_queue_title">Random music</string>
+    <string name="error_cannot_skip">Cannot skip</string>
+    <string name="error_loading_media">Error Loading Media</string>
+    <string name="play_item">Play item</string>
+    <string name="skip_previous">Skip to previous</string>
+    <string name="play_pause">play or pause</string>
+    <string name="skip_next">Skip to next</string>
+    <string name="no_search_results">No search results.</string>
+
+    <!-- Notification strings -->
+    <string name="label_pause">Pause</string>
+    <string name="label_play">Play</string>
+    <string name="label_previous">Previous</string>
+    <string name="label_next">Next</string>
+
+</resources>
